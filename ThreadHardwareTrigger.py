@@ -73,7 +73,7 @@ class Test(object):
 
             rgb = cv2.cvtColor(moreUsefulImgData, cv2.COLOR_BAYER_RG2RGB)
 
-            cv2.imwrite('waitYouna5.png'.format(1), rgb)
+            cv2.imwrite('Picture 1.png'.format(1), rgb)
 
 
             moreUsefulImgData2 = np.ndarray(buffer = frame2.getBufferByteData(),
@@ -85,7 +85,7 @@ class Test(object):
 
             rgb2 = cv2.cvtColor(moreUsefulImgData2, cv2.COLOR_BAYER_RG2RGB)
 
-            cv2.imwrite('waitYouna6.png'.format(1), rgb2)
+            cv2.imwrite('Picture 2.png'.format(1), rgb2)
 
             print 'images saved'
 
